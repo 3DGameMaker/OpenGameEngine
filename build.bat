@@ -3,7 +3,7 @@ pip install -r requirements.txt
 pyinstaller --onefile C:\Users\vanhu\AppData\Local\Programs\OpenGameEngine\OGE0.1\oge.py
 @echo off
 :: This adds to the current USER's PATH (no admin needed)
-set "NEW_PATH=C:\Users\vanhu\AppData\Local\Programs\OpenGameEngine\OGE0.1\dist"
+set "NEW_PATH=C:\Users\vanhu\AppData\Local\Programs\OpenGameEngine\OGE0.1.1"
 
 :: Check if already in PATH
 echo %PATH% | find /i "%NEW_PATH%" > nul
