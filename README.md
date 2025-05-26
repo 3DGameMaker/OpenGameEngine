@@ -39,9 +39,11 @@ Limitations:
 e.g you cant go into your C drive and run "oge form", 
 you have to go "oge C:\form.oge"
 2. Its limited, e.g no varibles or anything like that. will work on that in the future..
+
 All the commands:
 =
 Window Commands:
+=
 create window - Creates a new window (destroys any existing window)
 
 set title to "title text" - Sets the window title
@@ -51,6 +53,7 @@ set size to WxH - Sets the window size (e.g., 400x300)
 set background to "color" - Sets the window background color
 
 Widget Commands:
+=
 add text "text content" - Adds a text label to the window
 
 add button "button text" - Adds a button to the window
@@ -60,11 +63,13 @@ add input "name" - Adds an input field (optionally with a name for reference)
 add checkbox "label text" - Adds a checkbox with the given label
 
 Action Commands:
+=
 show message "message text" - Shows a message box with the given text
 
 on close "message text" - Sets a message to show when the window is closed
 
 Notes:
+=
 All string arguments can be enclosed in either single or double quotes
 
 Commands are case-insensitive (processed in lowercase)
